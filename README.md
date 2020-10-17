@@ -23,16 +23,46 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ---
 
-## Setup the Environment
+# Usage Instructions
+
+Clone the project repo to your workstation. 
+
+*** Code info ***
+​
+*** .circleci/config.yml *** CircleCI configuration
+
+*** requirements.txt *** App dependenices
+
+*** app.py *** - Contains Flask application to be deployed
+
+*** Makefile *** - setup app locally
+
+*** Dockerfile *** - Build the container image
+
+*** run_docker.sh *** build and run docker container
+
+*** ake_prediction.sh *** - test the application api 
+
+*** run_kubernetes.sh ***  kubernetes cluster
+
+*** upload_docker.sh *** upload docker image to dockerhub
+
+
+
+### Setup the Environment
 
 * Create a virtualenv and activate it
 * Run `make install` to install the necessary dependencies
+
+
 
 ### Running `app.py`
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
+
+
 
 ### Kubernetes Steps
 
