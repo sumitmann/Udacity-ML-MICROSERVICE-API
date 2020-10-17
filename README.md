@@ -17,42 +17,38 @@ Your project goal is to operationalize this working, machine learning microservi
 * Deploy a container using Kubernetes and make a prediction
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
-
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
-
----
+-----------------------------
 
 # Usage Instructions
 
 Clone the project repo to your workstation. 
 
-*** Code info ***
-​
-*** .circleci/config.yml *** CircleCI configuration
+### Code info
 
-*** requirements.txt *** App dependenices
+***.circleci/config.yml*** CircleCI configuration
 
-*** app.py *** - Contains Flask application to be deployed
+***requirements.txt*** App dependenices
 
-*** Makefile *** - setup app locally
+***app.py*** - Contains Flask application to be deployed
 
-*** Dockerfile *** - Build the container image
+***Makefile*** - setup app locally
 
-*** run_docker.sh *** build and run docker container
+***Dockerfile*** - Build the container image
 
-*** ake_prediction.sh *** - test the application api 
+***run_docker.sh*** build and run docker container
 
-*** run_kubernetes.sh ***  kubernetes cluster
+***ake_prediction.sh*** - test the application api 
 
-*** upload_docker.sh *** upload docker image to dockerhub
+***run_kubernetes.sh***  kubernetes cluster
+
+***upload_docker.sh*** upload docker image to dockerhub
 
 
 
 ### Setup the Environment
 
-* Create a virtualenv and activate it
-* Run `make install` to install the necessary dependencies
+1. Create a virtualenv and activate it
+2. Run `make install` to install the necessary dependencies
 
 
 
@@ -66,7 +62,7 @@ Clone the project repo to your workstation.
 
 ### Kubernetes Steps
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+1. Setup and Configure Docker locally
+2. Setup and Configure Kubernetes locally
+3. Create Flask app in Container
+4. Run via kubectl
