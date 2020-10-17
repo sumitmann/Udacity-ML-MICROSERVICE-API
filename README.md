@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![noyan-alimov](https://circleci.com/gh/sumitmann/Udacity-ML-MICROSERVICE-API.svg?style=svg)](https://app.circleci.com/pipelines/github/sumitmann/Udacity-ML-MICROSERVICE-API)
 
 ## Project Overview
 
